@@ -2,13 +2,13 @@ import React from 'react';
 import styles from '../styles/modules/button.module.scss';
 
 const buttonTypes = {
-    primary="primary",
-    secondary="secondary"
-}
+  primary: 'primary',
+  secondary: 'secondary',
+};
 
-function Button({ children, variant='primary' }) {
+function Button({ children, variant = 'primary' }) {
   return (
-    <button className={styles.button} type="button">
+    <button className={getClasses} type="button">
       {children}
     </button>
   );
