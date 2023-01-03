@@ -28,7 +28,7 @@ function TodoModal() {
               Add Task
             </Button>
             <Button type="button" variant="secondary">
-              Add Task
+              Cancel
             </Button>
           </div>
         </form>
